@@ -1,15 +1,9 @@
-import java.awt.Dimension;
-
-import javax.swing.JFrame;
-
 import java.util.logging.Level;
 import java.util.logging.LogManager;
 import java.util.logging.Logger;
-
-//import junk.GlobalKeyListenerExample;
-
 import org.jnativehook.GlobalScreen;
 import org.jnativehook.NativeHookException;
+
 /**
  * A testing classfor the autoclicker.
  * I got the code to remove most annoying logging data from: https://stackoverflow.com/questions/30560212/how-to-remove-the-logging-data-from-jnativehook-library
@@ -17,6 +11,7 @@ import org.jnativehook.NativeHookException;
  *
  */
 public class ClickTest {
+	
 	public static void main(String[]args) throws NativeHookException{
 		AutoClicker clicked= new AutoClicker(10);
 
